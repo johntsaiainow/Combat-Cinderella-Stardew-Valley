@@ -10,6 +10,8 @@ A fan-made **Stardew Valley 1.6** content mod bringing characters and locations 
 
 [![Stardew Valley artwork](Arts/Stardew%20Valley.png)](Arts/Stardew%20Valley.png)
 
+[![Sapphire Fox issues comic](Arts/Sapphire%20Fox%20issues.png)](Arts/Sapphire%20Fox%20issues.png)
+
 | Combat Cinderella | Shadow Cub |
 | --- | --- |
 | [![Combat Cinderella in Stardew Valley](Arts/Combat%20Cinderella%20Stardew%20Valley.png)](Arts/Combat%20Cinderella%20Stardew%20Valley.png) | [![Shadow Cub in Stardew Valley](Arts/Shadow%20Cub%20Stardew%20Valley.png)](Arts/Shadow%20Cub%20Stardew%20Valley.png) |
