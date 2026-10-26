@@ -6,6 +6,24 @@ A fan-made **Stardew Valley 1.6** content mod bringing characters and locations 
 
 > **Unofficial fan project.** Not affiliated with or endorsed by ConcernedApe, Stardew Valley, or the developers of SMAPI and Content Patcher.
 
+## Artwork
+
+[![Stardew Valley artwork](Arts/Stardew%20Valley.png)](Arts/Stardew%20Valley.png)
+
+| Combat Cinderella | Shadow Cub |
+| --- | --- |
+| [![Combat Cinderella in Stardew Valley](Arts/Combat%20Cinderella%20Stardew%20Valley.png)](Arts/Combat%20Cinderella%20Stardew%20Valley.png) | [![Shadow Cub in Stardew Valley](Arts/Shadow%20Cub%20Stardew%20Valley.png)](Arts/Shadow%20Cub%20Stardew%20Valley.png) |
+
+| House in Stardew Valley | Ginger Island |
+| --- | --- |
+| [![House in Stardew Valley](Arts/House%20in%20Stardew%20Valley.png)](Arts/House%20in%20Stardew%20Valley.png) | [![Ginger Island artwork](Arts/Ginger%20Island.png)](Arts/Ginger%20Island.png) |
+
+## Documentation
+
+- [Story directory and all 12 episodes](docs/stories/README.md) — Phase I screenplays and Phase II outlines.
+- [Complete English story collection](docs/stories/Combat_Cinderella_Stardew_Valley_Phases_I_II_English.md) — shared cast, continuity notes, and adaptation appendices.
+- [Content pack notes](CombatCinderella/README.md) — sprite changes and pack installation notes.
+
 ## The Story — The Stardew Valley Incident
 
 *Combat Cinderella — Season One: A Story That Crosses Into Stardew Valley*
@@ -61,6 +79,32 @@ Carrie Ko and Natalica Ko are not visitors from a separate game dimension. They 
 **Welcome to the valley. The Ko family could use your help.**
 
 > **Development note:** This section describes the intended narrative direction. The investigation questline and related events are planned story content, not all implemented in v0.8.6-beta.
+
+## Story scripts and episode guide
+
+Read the [story directory](docs/stories/README.md) for individual episode files, or the [complete English collection](docs/stories/Combat_Cinderella_Stardew_Valley_Phases_I_II_English.md) for the shared cast, continuity notes, and mod adaptation appendices. These scripts and outlines describe planned narrative content; they do not indicate that the campaigns are implemented in the mod.
+
+### Phase I — The Stardew Valley Incident
+
+Complete six-episode screenplay.
+
+- [Episode 1 — A Strange Request](docs/stories/phase_i/Episode_01_A_Strange_Request.md)
+- [Episode 2 — Echoes Beneath the Mountain](docs/stories/phase_i/Episode_02_Echoes_Beneath_the_Mountain.md)
+- [Episode 3 — The Wizard's Warning](docs/stories/phase_i/Episode_03_The_Wizard_s_Warning.md)
+- [Episode 4 — The Shadow in the Sewers](docs/stories/phase_i/Episode_04_The_Shadow_in_the_Sewers.md)
+- [Episode 5 — The Forgotten Machine](docs/stories/phase_i/Episode_05_The_Forgotten_Machine.md)
+- [Episode 6 — Farewell, Stardew Valley](docs/stories/phase_i/Episode_06_Farewell_Stardew_Valley.md)
+
+#### Phase II — The Ginger Island Adventure
+
+Planned story outlines, not completed screenplays. P2E01 includes the preliminary opening scene concept.
+
+- [P2E01 — Welcome to Ginger Island](docs/stories/phase_ii/P2E01_Welcome_to_Ginger_Island.md)
+- [P2E02 — The Golden Walnuts](docs/stories/phase_ii/P2E02_The_Golden_Walnuts.md)
+- [P2E03 — The Volcano Dungeon](docs/stories/phase_ii/P2E03_The_Volcano_Dungeon.md)
+- [P2E04 — Professor Snail](docs/stories/phase_ii/P2E04_Professor_Snail.md)
+- [P2E05 — The Island's Secret](docs/stories/phase_ii/P2E05_The_Island_s_Secret.md)
+- [P2E06 — Paradise, At Last](docs/stories/phase_ii/P2E06_Paradise_At_Last.md)
 
 ## Features in v0.8.6-beta
 
