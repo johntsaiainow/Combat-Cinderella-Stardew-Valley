@@ -1,0 +1,9 @@
+{
+  "Name": "Ko Entrance Diagnostics",
+  "Author": "Combat Cinderella",
+  "Version": "0.8.1",
+  "Description": "Debug position and warp commands for the Ko Estate entrance test.",
+  "UniqueID": "CombatCinderella.KoEntranceDiagnostics",
+  "EntryDll": "KoEntranceDiagnostics.dll",
+  "MinimumApiVersion": "4.0.0"
+}

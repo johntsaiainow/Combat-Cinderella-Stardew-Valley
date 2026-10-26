@@ -1,0 +1,12 @@
+{
+  "spring": "900 {{ModId}}_KoResidence 35 8 2/1130 Town 73 54 2/1430 Mountain 49 31 2/1800 {{ModId}}_KoResidence 35 8 2",
+  "Tue": "900 {{ModId}}_KoResidence 35 8 2/1100 ArchaeologyHouse 11 9 2/1500 Town 73 54 2/1900 {{ModId}}_KoResidence 35 8 2",
+  "Thu": "900 {{ModId}}_KoResidence 35 8 2/1100 Mountain 49 31 2/1600 Town 73 54 2/1900 {{ModId}}_KoResidence 35 8 2",
+  "Sat": "900 {{ModId}}_KoResidence 35 8 2/1200 Beach 30 34 2/1700 Town 73 54 2/2000 {{ModId}}_KoResidence 35 8 2",
+  "Sun": "900 {{ModId}}_KoResidence 35 8 2/1200 Town 73 54 2/1600 Town 47 87 2/1900 {{ModId}}_KoResidence 35 8 2",
+  "rain": "900 {{ModId}}_KoResidence 35 8 2/1200 ArchaeologyHouse 11 9 2/1700 {{ModId}}_KoResidence 35 8 2",
+  "GreenRain": "900 {{ModId}}_KoResidence 35 8 2",
+  "summer": "GOTO spring",
+  "fall": "GOTO spring",
+  "winter": "GOTO spring"
+}

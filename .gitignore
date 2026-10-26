@@ -1,0 +1,37 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# .NET / SMAPI build outputs
+**/bin/
+**/obj/
+*.user
+*.suo
+TestResults/
+
+# Logs and local runtime data
+*.log
+smapi-internal/
+crash-reports/
+
+# Local configuration / secrets (do not commit personal tokens)
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Temporary archives and backups
+*.bak
+*.backup
+*.tmp
+*.orig
+*.zip
+*.7z
+*.tar.gz
+
+# Keep Content Patcher assets (PNG, TMX, JSON) and source code tracked.

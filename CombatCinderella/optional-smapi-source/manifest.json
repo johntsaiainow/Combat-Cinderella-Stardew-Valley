@@ -1,0 +1,9 @@
+{
+  "Name": "Ko Residence Interactions",
+  "Author": "Combat Cinderella",
+  "Version": "0.7.0",
+  "Description": "Optional interactive objects for the Ko family residence.",
+  "UniqueID": "CombatCinderella.KoResidenceInteractions",
+  "EntryDll": "KoResidenceInteractions.dll",
+  "MinimumApiVersion": "4.0.0"
+}

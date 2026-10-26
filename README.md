@@ -6,7 +6,63 @@ A fan-made **Stardew Valley 1.6** content mod bringing characters and locations 
 
 > **Unofficial fan project.** Not affiliated with or endorsed by ConcernedApe, Stardew Valley, or the developers of SMAPI and Content Patcher.
 
-## Features
+## The Story — The Stardew Valley Incident
+
+*Combat Cinderella — Season One: A Story That Crosses Into Stardew Valley*
+
+### A clue in the Pacific Northwest
+
+The Ko family did not come to Stardew Valley to escape the troubles unfolding back home in Southern California. They came because a fragment of evidence pointed north—to a secluded valley in **Washington State**, where a quiet farming community seemed an unlikely place to hide an important secret.
+
+Aether Gear arranged for the family to stay at **Ko Estate**, a temporary base tucked beyond the Backwoods. The plan sounded simple: investigate the lead, keep a low profile, and leave before the people of Pelican Town had any reason to wonder about their new neighbors.
+
+There was, however, one detail Aether Gear had neglected to explain to his wife.
+
+He already knew this valley.
+
+Years earlier, he had introduced his daughters, **Carrie** and **Natalica**, to a farming game called *Stardew Valley*. They knew the winding paths, the seasonal festivals, the shops, the mines, and the names of people they had never met. In the *Combat Cinderella* universe, the places the sisters love are real places—and Stardew Valley is one of them.
+
+**Sapphire Fox**, on the other hand, had never played the game.
+
+### Three people who know too much
+
+Their first morning in Pelican Town was not quite the ordinary family outing Sapphire Fox expected.
+
+> **Natalica:** “Can we visit Abigail today?”  
+> **Sapphire Fox:** “Who is Abigail? Do you know someone here?”  
+> **Carrie:** “Not exactly.”  
+> **Sapphire Fox:** “What does *not exactly* mean?”  
+> **Aether Gear:** “We did some research before the trip.”  
+> **Natalica:** “Dad even knows when Pierre closes his store!”  
+> **Sapphire Fox:** “Why would you research *that*?”
+
+Aether Gear changed the subject. Carrie tried not to laugh. Natalica made no such effort.
+
+But knowing the valley from a game was not the same as knowing the people who lived there. Real villagers had real lives, and the family's investigation would soon demand more than a remembered map or a familiar schedule.
+
+### The farmer who changed everything
+
+The breakthrough came from someone the Ko family had not expected to rely on: **a local farmer**.
+
+The farmer knew the trails, the seasons, the mines, and the rhythms of Pelican Town better than any outsider could. More importantly, the farmer was willing to help. What began as small favors grew into a series of assignments: collecting unusual mineral samples, checking reports of activity underground, tracing a strange signal near the woods, and delivering supplies for Aether Gear's equipment.
+
+To most villagers, these were simply errands for the new family living beyond the Backwoods. To Carrie and Natalica, they were pieces of a mystery. To Sapphire Fox, they were further evidence that her husband was being suspiciously vague about the entire trip.
+
+The farmer did not need to become a soldier or a secret agent. The farmer's greatest advantage was something the Ko family lacked: a genuine connection to the valley and its people.
+
+And when the clues stopped making sense, that connection might prove more valuable than all of Aether Gear's technology.
+
+### Two stories, one valley
+
+In *Combat Cinderella* Season One, this is a brief but meaningful chapter in the Ko family's larger investigation. In *Stardew Valley*, it is a story told from the other side: **you are the farmer who helps them**.
+
+Carrie Ko and Natalica Ko are not visitors from a separate game dimension. They belong to the same world as Pelican Town. The mystery they are following is part of their own story—but your choices, friendships, and work on the farm give you a place in it.
+
+**Welcome to the valley. The Ko family could use your help.**
+
+> **Development note:** This section describes the intended narrative direction. The investigation questline and related events are planned story content, not all implemented in v0.8.6-beta.
+
+## Features in v0.8.6-beta
 
 - **Carrie Ko (Combat Cinderella)** and **Natalica Ko (Shadow Cub)** as custom, non-romanceable NPCs, with walking sprites, portraits, dialogue, and schedules.
 - **Ko Estate**, an outdoor family estate map, and **Ko Residence**, an interior home map.

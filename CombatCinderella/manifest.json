@@ -1,0 +1,11 @@
+{
+  "Name": "Combat Cinderella - Core Mod",
+  "Author": "John Tsai",
+  "Version": "0.3.0",
+  "Description": "Combat Cinderella NPCs: native-grid transparent walking sprites, dialogue and schedules",
+  "UniqueID": "JohnTsai.CombatCinderella",
+  "MinimumApiVersion": "4.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

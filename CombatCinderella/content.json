@@ -1,0 +1,1127 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Carrie",
+      "FromFile": "assets/Characters/Carrie.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Carrie",
+      "FromFile": "assets/Portraits/Carrie.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/{{ModId}}_Carrie",
+      "FromFile": "assets/Dialogue/Carrie.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_Carrie",
+      "FromFile": "assets/Schedules/Carrie.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Natalica",
+      "FromFile": "assets/Characters/Natalica.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Natalica",
+      "FromFile": "assets/Portraits/Natalica.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/{{ModId}}_Natalica",
+      "FromFile": "assets/Dialogue/Natalica.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_Natalica",
+      "FromFile": "assets/Schedules/Natalica.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Carrie": {
+          "DisplayName": "Carrie Ko",
+          "TextureName": "{{ModId}}_Carrie",
+          "BirthSeason": "spring",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Teen",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": false,
+          "WinterStarParticipant": false,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_KoResidence",
+              "Tile": {
+                "X": 7,
+                "Y": 8
+              },
+              "Direction": "down"
+            }
+          ]
+        },
+        "{{ModId}}_Natalica": {
+          "DisplayName": "Natalica Ko",
+          "TextureName": "{{ModId}}_Natalica",
+          "BirthSeason": "spring",
+          "BirthDay": 28,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Teen",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": false,
+          "WinterStarParticipant": false,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModId}}_KoResidence",
+              "Tile": {
+                "X": 35,
+                "Y": 8
+              },
+              "Direction": "down"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_KoResidence",
+      "FromFile": "assets/Maps/KoResidence.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/KoResidenceTiles",
+      "FromFile": "assets/Maps/KoResidenceTiles.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_KoResidence": {
+          "DisplayName": "Ko Family Residence",
+          "CreateOnLoad": {
+            "MapPath": "Maps/{{ModId}}_KoResidence"
+          }
+        },
+        "{{ModId}}_KoEstate": {
+          "DisplayName": "Ko Family Estate",
+          "CreateOnLoad": {
+            "MapPath": "Maps/{{ModId}}_KoEstate"
+          }
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_KoEstate",
+      "FromFile": "assets/Maps/KoEstate.tmx"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/KoEstateTiles",
+      "FromFile": "assets/Maps/KoEstateTiles.png"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_KoEstate",
+      "AddWarps": [
+        "31 47 Backwoods 35 10",
+        "32 47 Backwoods 35 10",
+        "31 20 {{ModId}}_KoResidence 21 30",
+        "32 20 {{ModId}}_KoResidence 22 30"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_KoResidence",
+      "AddWarps": [
+        "21 31 {{ModId}}_KoEstate 31 22",
+        "22 31 {{ModId}}_KoEstate 32 22"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "LogName": "Ko Estate v0.8.5 - clear driveway overlays",
+      "MapTiles": [
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 34,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 35,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Buildings",
+          "Position": {
+            "X": 36,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 34,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 35,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "Front",
+          "Position": {
+            "X": 36,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 0
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 1
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 2
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 3
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 4
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 5
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 6
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 7
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 8
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 9
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 10
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 11
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 34,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 35,
+            "Y": 12
+          },
+          "Remove": true
+        },
+        {
+          "Layer": "AlwaysFront",
+          "Position": {
+            "X": 36,
+            "Y": 12
+          },
+          "Remove": true
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "LogName": "Ko Estate - 5-tile northbound driveway with cliff-side verge v0.8.6",
+      "FromFile": "assets/Maps/KoBackwoodsEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 13
+      },
+      "ToArea": {
+        "X": 33,
+        "Y": 0,
+        "Width": 5,
+        "Height": 13
+      },
+      "PatchMode": "Overlay",
+      "AddWarps": [
+        "35 1 {{ModId}}_KoEstate 31 46",
+        "36 1 {{ModId}}_KoEstate 32 46"
+      ]
+    }
+  ]
+}
